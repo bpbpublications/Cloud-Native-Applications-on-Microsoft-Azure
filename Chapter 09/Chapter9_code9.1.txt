@@ -1,0 +1,1 @@
+az resource tag \--ids /subscriptions/<sub-id>/resourceGroups/<rg-name>/providers/Microsoft.Compute/virtualMachines/<vm-name> \--tags Environment=Prod Monitoring=Enabled

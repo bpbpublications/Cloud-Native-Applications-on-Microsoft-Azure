@@ -1,0 +1,23 @@
+The YAML code for real [aC example:
+name: Deploy to AKS
+
+on:
+push:
+
+branches:
+
+- main
+
+jobs:
+deploy:
+runs-on: ubuntu-latest
+steps:
+- uses: actions/checkout@v2
+- name: Set up Azure CLI
+uses: azure/login@vil
+with:
+creds: ${{ secrets.AZURE CREDENTIALS }}
+- name: Deploy to AKS
+run: |
+az aks get-credentials --resource-group myResourceGroup --name myAKSCluster
+kubectl apply -f k8s-deployment.yaml

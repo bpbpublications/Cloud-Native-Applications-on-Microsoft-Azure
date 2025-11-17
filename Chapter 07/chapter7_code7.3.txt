@@ -1,0 +1,1 @@
+az deployment group create \--resource-group rg-apim-demo \--template-file main.bicep \--parameters apimName=myapim publisherEmail='admin@demo.com'publisherName='Demo'

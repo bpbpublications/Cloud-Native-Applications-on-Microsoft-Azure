@@ -1,0 +1,1 @@
+resource diag 'Microsoft.Insights/diagnosticSettings@2021-05-01-preview' = {name: 'sendToLogAnalytics'scope: resourceId('Microsoft.Compute/virtualMachines', 'myVM')properties: {workspaceId: logAnalytics.idlogs: [{category: 'Administrative'enabled: true}]metrics: [220 ? Cloud-Native Applications on Microsoft Azure{category: 'AllMetrics'enabled: true}]}}

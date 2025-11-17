@@ -1,0 +1,1 @@
+az apim api import --resource-group rg-apim-demo \--service-name myapim \--path orders \--specification-format OpenApiJson \--specification-url https://raw.githubusercontent.com/OAI/OpenAPI-Specification/main/examples/v3.0/petstore.json

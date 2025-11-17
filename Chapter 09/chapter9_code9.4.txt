@@ -1,0 +1,1 @@
+az consumption budget create \--name observabilityBudget \--amount 100 \--time-grain monthly \--category cost \--start-date 2025-07-01 \--end-date 2025-12-31 \--notifications '{"Actual_GreaterThan_80_Percent":{"enabled":true,"operator":"GreaterThan","threshold":80,"contactEmails":["ops-team@domain.com"]}}'

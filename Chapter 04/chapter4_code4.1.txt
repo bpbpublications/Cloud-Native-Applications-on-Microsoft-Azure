@@ -1,0 +1,1 @@
+Kusto Query Language (KQL) query:AppRequests| where Success == false| summarize FailedRequests = count() by bin(timestamp, 1h), OperationName| order by timestamp desc

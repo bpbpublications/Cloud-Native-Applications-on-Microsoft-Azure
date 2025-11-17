@@ -1,0 +1,1 @@
+az monitor metrics alert create \--name HighCPUAlert \--resource-group myRG \--scopes /subscriptions/<sub-id>/resourceGroups/myRG/providers/Microsoft.Compute/virtualMachines/myVM \--condition "avg Percentage CPU > 80" \--window-size 5m \--evaluation-frequency 1m \--action-group myActionGroup
