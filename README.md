@@ -3,7 +3,7 @@
 Microservices, containers, and Kubernetes for modern application development on Azure.
 
 This is the repository for [Cloud-Native Applications on Microsoft Azure
-]([https://bpbonline.com/products/salesforce-in-action?_pos=1&_sid=e1b4a3061&_ss=r&variant=44774247301320?variant=44774247301320](https://bpbonline.com/products/cloud-native-applications-on-microsoft-azure?variant=44849505861832)),published by BPB Publications.
+](https://bpbonline.com/products/cloud-native-applications-on-microsoft-azure?variant=44849505861832),published by BPB Publications.
 
 <img src="9789365894080.jpg">
 
